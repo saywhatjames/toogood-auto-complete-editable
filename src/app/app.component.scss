@@ -1,0 +1,17 @@
+.container {
+  width: 80%;
+  margin: auto;
+  background-color: #6e7a8a;
+  display: flex;
+  flex-direction: column;
+}
+
+.inner {
+  display: table;
+  margin: 2em;
+  width: fit-content;
+  flex-direction: row;
+  background-color: white;
+}
+
+

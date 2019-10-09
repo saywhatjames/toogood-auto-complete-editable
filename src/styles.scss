@@ -1,1 +1,37 @@
 /* You can add global styles to this file, and also import other style files */
+// Fonts
+
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,500&display=swap');
+
+
+
+// variables
+$font-family:  'Fira Sans', monospace;
+// Greys
+$gray1: #F5F8FA;
+$gray2: #e1e7ec;
+$gray3: #d5dde5;
+$gray4: #ccd4db;
+$gray5: #aebecd;
+$gray6: #929fb1;
+$gray7: #6e7a8a;
+$gray8: #404b5a;
+$gray9: #202833;
+
+// Accents
+$blue1: #005999;
+$main: #f4efea;
+
+
+// resets and defaults
+html,
+body {
+  height: 100%;
+  min-height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: $font-family;
+  font-size: 16px;
+  color: $gray9;
+}
+

@@ -1,0 +1,60 @@
+@import '../../styles';
+
+
+.dropdown-menu {
+  display: block;
+  max-height: 200px;
+  overflow-y: auto;
+  position: absolute;
+  background-color: white;
+}
+
+ul {
+  list-style-type: none;
+  font-size: 0.8em;
+  box-shadow: 0 0 5px 2px rgba(0, 0, 0, .35);
+  padding: 0;
+
+
+  .active {
+    background-color: $gray4 !important;
+
+    li {
+      :hover {
+        background-color: $gray4 !important;
+      }
+    }
+
+    a {
+      :hover {
+        background-color: $gray4 !important;
+      }
+    }
+  }
+
+
+  :last-child {
+    border-bottom: none;
+  }
+
+  :hover {
+    background-color: $gray1;
+  }
+
+
+  li {
+    padding: 0.4em;
+    border-bottom: 1px solid $gray7;
+
+
+    a {
+      color: $gray9;
+      text-decoration: none;
+    }
+  }
+
+
+}
+
+
+

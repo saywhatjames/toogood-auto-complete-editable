@@ -1,0 +1,13 @@
+
+<div class="resizable" >
+  <div class="title">{{title}}</div>
+  <div class="text-area"
+       [attr.placeholder]="placeholder"
+       [contentEditable]="true"
+       (input)="onInputChange($event.target)"
+       [suggestions]="suggestions"
+       [innerHTML]="text.innerHtml "
+       appSuggestions>
+  </div>
+</div>
+

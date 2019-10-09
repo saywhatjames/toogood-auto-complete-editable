@@ -1,0 +1,44 @@
+@import '../../styles';
+
+
+.resizable{
+  resize: both;
+  overflow: auto;
+  padding: 1em;
+  margin: 1em;
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 100%;
+  background-color: white;
+  width: 500px;
+  height: 200px;
+  font-size: 0.9em;
+
+
+  .title {
+    padding-bottom: 2em;
+  }
+}
+
+
+.name{
+  color: $blue1;
+  border: 1px solid $blue1;
+  font-weight: 500;
+}
+
+.text-area{
+  flex: 1 1 100%;
+  word-wrap: break-word;
+  line-height: 22px;
+}
+
+
+[contenteditable=true]:empty::before {
+  content: attr(placeholder);
+  color: $gray6;
+}
+
+[contenteditable]:focus {
+  outline: 0 solid transparent;
+}
