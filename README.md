@@ -1,14 +1,31 @@
-# Toogood
+# TooGoodAutoComplete
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.7.
+TooGood autocomplete is a resizable editor component with autocomplete features created using Angular Framework.
 
-## Development server
+##Demo
+https://serene-thompson-ca0aa4.netlify.com/
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+### Main Features:
+The component takes an array of objects and list it as autocomplete suggestions if matches are found.
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Getting Started
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
+
+### Prerequisites
+```
+npm
+Angular CLI
+```
+
+### Installing
+
+Run `npm install` to install the necessary dependencies for the project.
+
+### Running the development server
+
+Run `ng serve` for a dev server. Navigate to [http://localhost:4200/](http://localhost:4200/). 
+The app will automatically reload if you change any of the source files.
 
 ## Build
 
@@ -22,6 +39,19 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## Further help
+## Built With
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+* [Angular](https://angular.io/) - The web framework used
+* [NPM](https://www.npmjs.com/) - Dependency Management
+* [Angular CLI](https://cli.angular.io/) - CLI developing tool for Angular
+* [Rxjs](https://rxjs-dev.firebaseapp.com/) - Reactive Api Library
+* [Ngrx](https://ngrx.io/) - Reactive State Management
+
+
+### Issues:
+Resize CSS is not supported for IE.
+
+## Author
+
+**James Magpantay** [Github](https://github.com/saywhatjames)
+
