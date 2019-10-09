@@ -7,7 +7,7 @@ https://serene-thompson-ca0aa4.netlify.com/
 
 ### Main Features:
 The component takes an array of objects and list it as autocomplete suggestions if matches are found.
-The suggestions are triggered by a character set to default as *@* 
+The suggestions are triggered by a character set to default as **@**. 
 
 
 ## Getting Started
