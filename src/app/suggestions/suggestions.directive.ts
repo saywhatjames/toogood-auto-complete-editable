@@ -123,11 +123,8 @@ export class SuggestionsDirective implements OnDestroy {
     const win = doc.defaultView || doc.parentWindow;
     const selection = win.getSelection();
     const range = selection.getRangeAt(0);
-
-    console.log(e.firstChild);
     range.setStart(e, 0);
     range.setEnd(e, 1);
-
     selection.removeAllRanges();
     selection.addRange(range);
   }
@@ -167,7 +164,7 @@ export class SuggestionsDirective implements OnDestroy {
     }
 
 
-    // caret positioning interms of innerhtml
+    // set caret positioning in terms of innerhtml
 
     const target = document.createTextNode('\u0001');
     document.getSelection().getRangeAt(0).insertNode(target);
@@ -287,7 +284,6 @@ export class SuggestionsDirective implements OnDestroy {
 
           // HTML values before inserted suggestion
           const start = value.slice(0, startIndex);
-          console.log('start:' + start + ' startIndex: ' + startIndex);
 
           // HTML values after inserted Suggestion
           const caretPosition =
@@ -323,8 +319,8 @@ export class SuggestionsDirective implements OnDestroy {
     const win = doc.defaultView || doc.parentWindow;
     const sel = win.getSelection();
     const range = sel.getRangeAt(0);
-    const pos =  range.getBoundingClientRect();
-    const elPos =  el.getBoundingClientRect();
+    const pos = range.getBoundingClientRect();
+    const elPos = el.getBoundingClientRect();
 
     const lineHeight = +getComputedStyle(el).lineHeight.replace(/px$/, '');
 
