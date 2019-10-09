@@ -2,10 +2,10 @@
 
 TooGood autocomplete is a resizable editor component with autocomplete features created using Angular Framework.
 
-## Demo
+### Demo
 https://serene-thompson-ca0aa4.netlify.com/
 
-### Main Features:
+### Main Features
 The component takes an array of objects and list it as autocomplete suggestions if matches are found.
 The suggestions are triggered by a character set to default as **@**. 
 
